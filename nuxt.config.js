@@ -1,5 +1,9 @@
 
 export default {
+  modules: ['@nuxtjs/markdownit'],
+  markdownit: {
+    injected: true,
+  },
   mode: 'spa',
   /*
   ** Headers of the page
@@ -18,7 +22,10 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: ' modules: ['@nuxtjs/markdownit'],
+  markdownit: {
+    injected: true,
+  },#fff' },
   /*
   ** Global CSS
   */
